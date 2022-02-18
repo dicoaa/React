@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.active{
+  filter: saturate(6)
+}
+
+.inactive{
+  filter: none;
+}
+
+.activebtn{
+  filter: sepia();
+}
+
+.inactivebtn{
+  filter:none;
+}
+
+
+
